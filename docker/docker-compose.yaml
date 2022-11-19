@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  wpcf:
+    build: .
+    restart: always
+    environment:
+      DEVICE_ID: YOUR_DEVICE_ID
